@@ -1,4 +1,4 @@
-## Implémentation Simple d’une Blockchain en Python
+# Implémentation Simple d’une Blockchain en Python
 Une implémentation simple d’une blockchain avec Python. Il est conçu pour aider les débutants à comprendre les concepts fondamentaux de la blockchain, tels que le hachage, la preuve de travail (Proof of Work), et la validation de la chaîne.
 
 # Fonctionnalités
@@ -53,16 +53,16 @@ def hachage(*args):
 python
 Copy code
 class Block:
-    # Représente un bloc individuel dans la blockchain.
-    # Attributs : data, nonce, hash_precedent, numero.
-    # Méthodes : hash(), __str__().
+     Représente un bloc individuel dans la blockchain.
+     Attributs : data, nonce, hash_precedent, numero.
+     Méthodes : hash(), __str__().
 3. Classe Blockchain
 python
 Copy code
 class Blockchain:
-    # Gère la chaîne de blocs.
-    # Attributs : chain, difficulte, nombre_block.
-    # Méthodes : miner(block), isValid(), __str__().
+     Gère la chaîne de blocs.
+     Attributs : chain, difficulte, nombre_block.
+     Méthodes : miner(block), isValid(), __str__().
 4. Fonction Principale
 python
 Copy code
